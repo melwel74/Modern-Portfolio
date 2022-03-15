@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -39,4 +40,30 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+footer {
+    background:#BFBFBF;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h3 {
+    display: inline;
+    color:#127369;
+    font-size: 30px;
+    margin: 0;
+}
+
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("../assets/images/549-5498967_philadelphia-eagles-logo-png-philadelphia-eagles-transparent-logo.png");
+    height: 850px;
+}
+
+section h2 {
+    color:#127369;
 }
