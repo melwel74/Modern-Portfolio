@@ -61,7 +61,10 @@ section {
 
 .hero {
     background-image: url("../assets/images/549-5498967_philadelphia-eagles-logo-png-philadelphia-eagles-transparent-logo.png");
-    height: 850px;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 section h2 {
