@@ -70,3 +70,16 @@ section {
 section h2 {
     color:#127369;
 }
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #127369;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #BFBFBF;
+}
