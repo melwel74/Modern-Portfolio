@@ -94,6 +94,17 @@ section h2 {
 
 }
 
+.work {
+    text-align: center;
+}
+
+.work{
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background-color: #BFBFBF;
+    color: #127369;
+}
+
 
 
 
