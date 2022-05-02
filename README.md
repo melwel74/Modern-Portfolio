@@ -9,7 +9,7 @@ A way to display my portfolio projects
 * CSS
 
 ## Website
-https//https://melwel74.github.io/Modern-Portfolio/
+https://melwel74.github.io/Modern-Portfolio/
 
 ## Contribution
 Made by Me!
