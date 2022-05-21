@@ -6,12 +6,16 @@
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    color: #4C5958
+    color: #4C5958;
+    
 }
 
 header {
    padding: 20px 35px;
-   background-color: #BFBFBF
+   background-color: #BFBFBF;
+   display: flex;
+   justify-content: space-between;
+   
 }
 
 header h1 {
@@ -19,7 +23,7 @@ header h1 {
     font-size:36px;
     color: #4C5958;
     margin: 0;
-    display: inline;
+    
 }
 
 header a {
@@ -28,7 +32,7 @@ header a {
 }
 
 header nav {
-    float: right;
+    
     margin: 7px 0;
 }
 
@@ -72,9 +76,6 @@ section h2 {
     color:#127369;
 }
 
-.intro {
-    text-align: center;
-}
 
 .intro img{
     width: 35%;
@@ -87,9 +88,9 @@ section h2 {
     font-size: 55px;
     color: #127369;
     margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding: 0px 100px 20px 100px;
     border-bottom: 3px solid;
-    border-color: #BFBFBF;
+    border-color: #127369;
     display: inline-block;
 }
 
@@ -105,7 +106,7 @@ section h2 {
 
 .intro{
     width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 50px auto 30px auto;
     background-color: #BFBFBF;
     color: #127369;
     text-align: center;
@@ -129,6 +130,8 @@ section h2 {
     float: left;
     width: 65%;
 }
+
+
 
 .bio h3 {
     font-size: 32px;
@@ -170,6 +173,33 @@ section h2 {
     width: 100%;
     margin-bottom: 15px;
 }
+
+.work{
+    text-align: center;
+    display: inline-block;
+    background:#BFBFBF
+}
+
+.work h2{
+    font-size: 55px;
+    color: #127369;
+    margin-bottom: 35px;
+    padding: 0 100px  20px 100px;
+    border-bottom: 3px solid;
+    border-color: #127369;
+    display: inline-block;
+}
+
+.work a{
+    line-height: 1.7;
+    color: #127369;
+    width: 80%;
+    font-size: 20px;
+}
+
+
+
+
 
 
 
