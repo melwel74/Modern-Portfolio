@@ -7,6 +7,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     color: #4C5958;
+    background-color: #127369;
     
 }
 
@@ -19,7 +20,7 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
+    font-weight: lighter;
     font-size:36px;
     color: #4C5958;
     margin: 0;
@@ -56,6 +57,7 @@ footer h3 {
     display: inline;
     color:#127369;
     font-size: 30px;
+    font-weight: lighter;
     margin: 0;
 }
 
@@ -74,6 +76,7 @@ section {
 
 section h2 {
     color:#127369;
+    font-weight: lighter;
 }
 
 
@@ -87,7 +90,7 @@ section h2 {
 .intro h2 {
     font-size: 55px;
     color: #127369;
-    margin-bottom: 35px;
+    margin-bottom: 75px;
     padding: 0px 100px 20px 100px;
     border-bottom: 3px solid;
     border-color: #127369;
@@ -100,6 +103,7 @@ section h2 {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    font-weight: lighter;
 
 }
 
@@ -111,7 +115,9 @@ section h2 {
     color: #127369;
     text-align: center;
     overflow: auto;
+    border-radius:25px;
 }
+
 
 .text-left{
     text-align: left;
@@ -123,10 +129,11 @@ section h2 {
 .intro img {
     width: 35%;
     float: left;
+   
 }
 
 .intro p {
-    padding: 50px;
+    padding: 25px;
     float: left;
     width: 65%;
 }
@@ -136,11 +143,12 @@ section h2 {
 .bio h3 {
     font-size: 32px;
     margin-bottom:8px;
+    font-weight: lighter;
 }
 
 .bio h4{
     font-weight: lighter;
-    font-size:26px;
+    font-size:20px;
     margin-bottom: 25px;
 }
 
@@ -158,11 +166,15 @@ section h2 {
     width: 500px;
     color: #127369;
     border: solid 3px #127369;
+    border-radius: 25px 50px;
 }
 
 .hero-form p{
     margin: 5px 0 15px 0;
+    font-weight: lighter;
 }
+
+
 
 .form-input{
     border: 1px solid #BFBFBF;
@@ -172,12 +184,25 @@ section h2 {
     color: #127369;
     width: 100%;
     margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    
+    
 }
 
 .work{
     text-align: center;
     display: inline-block;
-    background:#BFBFBF
+    background:#BFBFBF;
+    margin-left: 25px;
+    border-radius: 25px;
+   
+    
+   
+    
 }
 
 .work h2{
@@ -188,14 +213,37 @@ section h2 {
     border-bottom: 3px solid;
     border-color: #127369;
     display: inline-block;
+    font-weight: lighter;
 }
 
 .work a{
-    line-height: 1.7;
+    line-height: 1.9;
     color: #127369;
-    width: 80%;
+    width: 50%;
     font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+   
+   
 }
+
+.work a img {
+    width: 150px;
+    border: solid;
+    border-width: 2px 2px 2px 2px; 
+}
+
+
+
+
+
+
+/* .tacos {
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
 
 
 
