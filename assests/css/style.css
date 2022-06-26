@@ -8,9 +8,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     color: #4C5958;
     background-color: #127369;
-    perspective: 25px;
-
-    
+    perspective: 25px;  
 }
 
 header {
@@ -41,6 +39,14 @@ header nav {
 }
 
 header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -98,10 +104,7 @@ section h2 {
 .intro img{
     width: 35%;
     float: left;
-    
-    
-  
-   
+     
 }
 
 
@@ -206,7 +209,7 @@ section h2 {
     border: 1px solid #BFBFBF;
     display: block;
     padding: 7px 15px;
-    font-size: 16px;
+    font-size: 25px;
     color: #127369;
     width: 100%;
     margin-bottom: 15px;
@@ -216,10 +219,10 @@ section h2 {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-   
-       
+    justify-content: center;      
 }
+
+
 
 .work{
     text-align: center;
@@ -270,12 +273,27 @@ section h2 {
 
 .work a img div{
     width: 150px;
-    display:flex container;
+    display:block;
 }
 
 
 
+.intro{
+animation: fadeIn 8s;
+}
 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 3;
+    }
+}
+
+.flex-row{
+    display: flex;
+}
 
 /* .tacos {
     border: solid;
