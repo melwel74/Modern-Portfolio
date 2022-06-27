@@ -16,7 +16,11 @@ header {
    background-color: #BFBFBF;
    display: flex;
    justify-content: space-between;
+   position: -webkit-sticky;
    flex-wrap: wrap;
+   Position: sticky;
+   top: 0;
+
    
 }
 
@@ -117,6 +121,7 @@ section h2 {
     border-bottom: 3px solid;
     border-color: #127369;
     display: inline-block;
+    text-decoration: none;
 }
 
 .intro p {
@@ -279,7 +284,7 @@ section h2 {
 
 
 .intro{
-animation: fadeIn 8s;
+animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
@@ -291,8 +296,25 @@ animation: fadeIn 8s;
     }
 }
 
+.intro p{
+    animation: fadeIn 8s;
+    }
+    
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to {
+            opacity: 3;
+        }
+    }
+
 .flex-row{
     display: flex;
+}
+
+.none{
+    text-decoration: none;
 }
 
 /* .tacos {
