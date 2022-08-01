@@ -9,6 +9,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Fly Eagles Fly</title>
 </head>
 
@@ -42,16 +43,18 @@
 
     </section>
 
+    <!-- bio -->
+
     <section id="about-me" class="intro">
         <h2>About Me</h2>
 
         <article>
-            <img src="./assests/assets/images/BA4727AC-A233-45DB-8B1F-9BD47593BB8D_1_105_c.jpeg" alt="photo of me">
+            <img src="./assests/assets/images/dress shirt.jpeg" alt="photo of me">
             <div class="bio">
                 <h3>Melvin Welton</h3>
                 <H4>Web Developer</H4>
                 <p>
-                    Hi, my name is Melvin. I love the Philadelphia Eagles football team. I have a passion for
+                    Hi, my name is Melvin. Nice to meet you. I love the Philadelphia Eagles football team. I have a passion for
                     technology, reading and Gaming. I've always wanted to learn how to code. I like the challenge of
                     being uncomfortable. ipsum dolor, sit amet consectetur adipisicing elit. Nostrum ipsa eum voluptatem
                     illo,
@@ -63,6 +66,8 @@
 
     </section>
 
+    <!--  -->
+
     <section class="section">
         <h1>Portfolio</h1>
         <section id="portfolio" class="container">
@@ -70,7 +75,7 @@
             <div class="card">
                 <div class="card-image card-1"></div>
                 <h2>Taco</h2>
-                <p>ipsum dolor, sit amet consectetur</p>
+                <p>Tacos! Tacos! Tacos!</p>
                 <a href="https://jamestw13.github.io/Taco-Loca-tor/">Read More</a>
 
             </div>
@@ -79,7 +84,7 @@
                 <div class="card-image card-2"></div>
                 <h2>Password </h2>
                 <p>
-                    ipsum dolor, sit amet consectetur
+                  I forgot my freakin password!
                 </p>
                 <a href="https://melwel74.github.io/password-generator/">Read More</a>
 
@@ -87,7 +92,7 @@
             <div class="card">
                 <div class="card-image card-3"></div>
                 <h2>Still Good</h2>
-                <p>ipsum dolor, sit amet consectetur</p>
+                <p>Still smells good</p>
                 <a href="https://pacific-bayou-24755.herokuapp.com/">Read More</a>
             </div>
 
@@ -95,7 +100,7 @@
             <div class="card">
                 <div class="card-image card-4"></div>
                 <h2>Run Buddy</h2>
-                <p>ipsum dolor, sit amet consectetur</p>
+                <p>Run Forest Run!!!</p>
                 <a href="https://melwel74.github.io/run-buddy5/">Read More</a>
             </div>
 
@@ -107,9 +112,9 @@
 
     <!-- form -->
 
-    <div class="container">
+    <!-- <div class="form">
         <h1>Contact</h1>
-        <form action="action_page.php">
+        <form action="action_page.php" class="contact">
 
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -130,24 +135,63 @@
             <input type="submit" value="Submit">
 
         </form>
-    </div>
+    </div> -->
 
 
 
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Me</h2>
+          <p>Swing by for a cup of coffee, or leave me a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="/w3images/map.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+   
 
     <footer class="space">
         <h3>MELVIN L WELTON</h3>
         <div class="w3-section">
-            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Wisconsin, US</p>
-            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (608)235.6695</p>
-            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nivlem65@gmail.com
-            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nivlem65@gmail.com
+            <a href="#">
+                <i class="bi bi-geo-alt-fill"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i></i>
+            </a>
+
+
+
+            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Madison, WI</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 608.235.6695</p>
             </p>
+            <p><i class=" bi bi-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nivlem65@gmail.com
+            </p>
+
+
         </div><br>
 
     </footer>
